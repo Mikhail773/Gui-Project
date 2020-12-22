@@ -24,7 +24,7 @@ import model.Invoice;
 import userinterface.MainStageContainer;
 import userinterface.WindowPosition;
 
-/** The class containing the main program for the Loan application */
+/** The class containing the main program for the application */
 //==============================================================
 public class InvoiceCalculator extends Application {
 
