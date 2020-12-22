@@ -3,6 +3,8 @@ A login screen is prompting the user to add a username and password is shown wit
 This second scene has texboxes for quantity of shirts, pants, ties, shoes, and sales tax. Upon pressing "Calculate" the total bill is calculated and displayed 
 
 # Classes Breakdown
+# Default Package
+
 InvoiceCalculator.java - Contains the main method for launching this program
 
 # model package - Contains valid usernames and passwords
