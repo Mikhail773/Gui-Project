@@ -32,7 +32,7 @@ import java.util.Vector;
 // project imports
 
 /**
- * The class containing the Loan View for the Loan Calculator application
+ * The class containing the Invoice View for the Invoice Calculator application
  */
 //==============================================================
 public class InvoiceView extends View {
@@ -82,7 +82,7 @@ public class InvoiceView extends View {
 		HBox container = new HBox();
 		container.setAlignment(Pos.CENTER);
 
-		Text titleText = new Text(" Mom and Pop’s Clothing Store ");
+		Text titleText = new Text(" Mom and Popâ€™s Clothing Store ");
 		titleText.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 		titleText.setWrappingWidth(400);
 		titleText.setTextAlignment(TextAlignment.CENTER);
