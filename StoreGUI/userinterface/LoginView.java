@@ -30,7 +30,7 @@ import model.Invoice;
 // project imports
 ;
 
-/** The class containing the Login View for the Loan Application */
+/** The class containing the Login View for the Invoice Application */
 //==============================================================
 public class LoginView extends View {
 
@@ -71,7 +71,7 @@ public class LoginView extends View {
 		// Error message area
 		container.getChildren().add(createStatusLog("                          "));
 
-		// Now, add the VBox (called ëcontainerí) as a CHILD of
+		// Now, add the VBox (called ‚Äòcontainer‚Äô) as a CHILD of
 		// the main Group (View) itself. Note that the View is
 		// what you put into the Scene, and you then put the Scene
 		// on the Stage
@@ -89,7 +89,7 @@ public class LoginView extends View {
 	// -------------------------------------------------------------
 	private Node createTitle() {
 
-		Text titleText = new Text("     Mom and Popís Clothing Store        ");
+		Text titleText = new Text("     Mom and Pop‚Äôs Clothing Store        ");
 		titleText.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 		titleText.setTextAlignment(TextAlignment.CENTER);
 		titleText.setFill(Color.DARKGREEN);
@@ -118,8 +118,8 @@ public class LoginView extends View {
 		userid.setOnAction(new EventHandler<ActionEvent>() {
 
 			@Override
-			// Each event handler has a ëhandle()í method
-			// that does the ìright thingî. In this case,
+			// Each event handler has a ‚Äòhandle()‚Äô method
+			// that does the ‚Äúright thing‚Äù. In this case,
 			// it gathers data and sends it to the Model
 			// for processing
 			public void handle(ActionEvent e) {
