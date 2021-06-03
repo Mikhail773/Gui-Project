@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?scenebuilder-stylesheet mailStyles.css?>
+<?import java.net.*?>
+
+<BorderPane prefHeight="300.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1"
+        xmlns="http://javafx.com/javafx/2.2"
+        fx:controller="com.kromalights.designer.entry.Controller">
+    <bottom>
+        <Pane prefHeight="200.0" prefWidth="200.0"/>
+    </bottom>
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0"/>
+    </center>
+    <left>
+        <VBox prefHeight="200.0" prefWidth="100.0"/>
+    </left>
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0"/>
+    </top>
+    <stylesheets>
+        <URL value="@mainStyles.css" />
+    </stylesheets>
+</BorderPane>
